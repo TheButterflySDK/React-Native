@@ -15,7 +15,7 @@
 ### Install via [npm](https://www.npmjs.com/package/react-native-butterfly-button)
 
 ```
-  react-native-butterfly-button: ^1.0.0
+  npm i react-native-butterfly-button
 ```
 
 ## Usage
