@@ -9,7 +9,7 @@ export default function App() {
       <View style={styles.box}>
         <ButterflyButton
           apiKey="caa3571f-1b56-41c5-b3f4-0189b8d5504e"
-          width={80}
+          testMode
         />
       </View>
     </View>

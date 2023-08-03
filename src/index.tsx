@@ -26,9 +26,7 @@ export const getDeviceLanguage = () => {
 const ButterflyButton = (props: ButterflyButtonProps) => {
   const uri = `https://butterfly-button.web.app/reporter/?language=${
     props.language || getDeviceLanguage() // default
-  }&is-embedded-as-orphan=1&is-embedded-via-website=0&is-embedded-via-wix=0&web-plugin-version=${
-    props.webPluginVersion || '1.0.0'
-  }&api_key=${
+  }&is-embedded-as-orphan=1&is-embedded-via-website=0&is-embedded-via-wix=0&web-plugin-version=${'1.0.0'}&api_key=${
     (props.testMode ? 'test-' : '') + props.apiKey
   }&override_country=${props.overrideCountry || '-#'}/`;
 
@@ -49,7 +47,8 @@ const ButterflyButton = (props: ButterflyButtonProps) => {
               uri: 'https://butterfly-button.web.app/img/butterfly-logo-200.png',
             }}
             style={{
-              width: typeof props.width !== 'undefined' ? props.width : 30,
+              width:
+                typeof props.buttonSize !== 'undefined' ? props.buttonSize : 30,
               ...styles.button,
             }}
             resizeMode="contain"
