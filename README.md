@@ -82,22 +82,7 @@ example:
 />
 ```
 
-#### webViewContainerStyle
-
-Define a style sheet for the Butterfly WebView.
-
-example:
-
-```JavaScript
-<ButterflyButton
-    apiKey="<API_KEY>"
-    webViewContainerStyle={{
-        backgroundColor: "blue"
-    }}
-/>
-```
-
-#### webViewContainerStyle
+#### webviewCustomCloseButton
 
 Override the close button of the Butterfly WebView.
 
