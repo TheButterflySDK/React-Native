@@ -41,8 +41,8 @@
     "android"
   ],
   "repository": "https://github.com/TheButterflySDK/React-Native",
-  "author": "The Butterfly SDK <service@butterfly-button.com> (https://github.com/TheButterflyButton/)",
-  "license": "MIT",
+  "author": "Butterfly Button <service@butterfly-button.com> (https://github.com/TheButterflyButton/)",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/TheButterflySDK/React-Native/issues"
   },

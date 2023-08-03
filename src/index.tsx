@@ -7,23 +7,11 @@ import {
   Text,
   Image,
   StyleSheet,
-  type StyleProp,
-  type ViewStyle,
 } from 'react-native';
 import { WebView } from 'react-native-webview';
 import { NativeModules } from 'react-native';
 import { Platform } from 'react-native';
-
-export type ButterflyButtonProps = {
-  apiKey: string;
-  language?: string;
-  webPluginVersion?: string;
-  overrideCountry?: string;
-  width?: number;
-  webViewContainerStyle?: StyleProp<ViewStyle>;
-  webviewCustomCloseButton?: (closeWebview: () => void) => React.JSX.Element;
-  testMode?: boolean;
-};
+import type { ButterflyButtonProps } from 'types';
 
 export const getDeviceLanguage = () => {
   const locale = Platform.select({
