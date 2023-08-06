@@ -11,7 +11,6 @@ import {
 import { WebView } from 'react-native-webview';
 import { NativeModules } from 'react-native';
 import { Platform } from 'react-native';
-import type { ButterflyButtonProps } from 'types';
 
 export const getDeviceLanguage = () => {
   const locale = Platform.select({
@@ -23,7 +22,7 @@ export const getDeviceLanguage = () => {
   return locale.replace('-', '_').split('_')[0];
 };
 
-const ButterflyButton = (props: ButterflyButtonProps) => {
+export const ButterflyButton = (props) => {
   const uri = `https://butterfly-button.web.app/reporter/?language=${
     props.language || getDeviceLanguage() // default
   }&is-embedded-as-orphan=1&is-embedded-via-website=0&is-embedded-via-wix=0&web-plugin-version=${'1.0.0'}&api_key=${
