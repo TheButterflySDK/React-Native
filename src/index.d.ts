@@ -6,7 +6,7 @@ export interface ButterflyButtonProps {
   webViewContainerStyle?: import('react-native').StyleProp<
     import('react-native').ViewStyle
   >;
-  webviewCustomCloseButton?: (closeWebview: () => void) => React.JSX.Element;
+  webviewCustomCloseButton?: (closeWebview: () => void) => JSX.Element;
   testMode?: boolean;
 }
 

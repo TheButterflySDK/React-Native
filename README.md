@@ -16,6 +16,7 @@
 
 ```
   npm i react-native-butterfly-button
+  npm i react-native-webview
 ```
 
 ## Usage

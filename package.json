@@ -2,7 +2,7 @@
   "name": "react-native-butterfly-button",
   "version": "1.0.3",
   "description": "The Butterfly SDK helps your app to take an active part in the fight against domestic violence.",
-  "main": "/index.jsx",
+  "main": "src/index.jsx",
   "types": "src/index.d.ts",
   "react-native": "src/index",
   "source": "src/index",
@@ -69,7 +69,8 @@
     "react-native": "0.71.8",
     "react-native-builder-bob": "^0.20.0",
     "release-it": "^15.0.0",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.2",
+    "react-native-webview": "11.26.1"
   },
   "resolutions": {
     "@types/react": "17.0.21"
@@ -77,7 +78,7 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-    "react-native-webview": "11.26.1"
+    "react-native-webview": "<=11.26.1"
   },
   "engines": {
     "node": ">= 16.0.0"
