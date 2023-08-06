@@ -10,7 +10,8 @@ export interface ButterflyButtonProps {
   testMode?: boolean;
 }
 
-export const ButterflyButton = (props: ButterflyButtonProps) =>
-  React.JSX.Element;
+type ButterflyButtonFC = React.FC<ButterflyButtonProps>;
+
+export const ButterflyButton: ButterflyButtonFC = props;
 
 export default ButterflyButton;
