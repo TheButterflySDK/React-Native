@@ -7,10 +7,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.box}>
-        <ButterflyButton
-          apiKey="caa3571f-1b56-41c5-b3f4-0189b8d5504e"
-          testMode
-        />
+        <ButterflyButton apiKey="<API_KEY>" testMode />
       </View>
     </View>
   );
