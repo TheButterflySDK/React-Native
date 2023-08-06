@@ -4,7 +4,7 @@
   "description": "The Butterfly SDK helps your app to take an active part in the fight against domestic violence.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
-  "types": "lib/typescript/index.d.ts",
+  "types": "src/index.d.ts",
   "react-native": "src/index",
   "source": "src/index",
   "files": [
